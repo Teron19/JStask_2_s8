@@ -1,5 +1,5 @@
 var uprostitel = document.getElementById("result");
-var total, razniza = 0;
+var total = 0, razniza = 0;
 
 for (var i = 1; i <=15; i++) {
     var first = Math.floor((Math.random() * 6) + 1);
@@ -25,6 +25,6 @@ for (var i = 1; i <=15; i++) {
 }
 
 uprostitel.innerHTML += (total > 100) 
-? ("Победа, вы набрали" + total + "очков") 
-: ("Вы проиграли, у вас" + total + "очков");
+? ("Победа, вы набрали " + total + " очков") 
+: ("Вы проиграли, у вас " + total + " очков");
   
